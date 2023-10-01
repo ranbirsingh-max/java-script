@@ -1,0 +1,7 @@
+function lifeInWeeks(age) {
+   var agedays= 32850-(age*365);
+   var ageweek= 4680-(age*52);
+   var  agemonths= 1080-(age*12);
+   alert("you have"+agedays+" days"+ageweek+" weeks"+" and"+agemonths+" months left");
+}
+lifeInWeeks(56);
