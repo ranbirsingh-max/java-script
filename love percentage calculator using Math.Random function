@@ -1,0 +1,6 @@
+var girl=prompt("what is your name");
+var boy=prompt("what is your name");
+var n=Math.random();
+n=n*100;
+n=Math.floor(n)+1;
+alert(girl+"  and "+boy+"  your love percentage is "+n+" %");
