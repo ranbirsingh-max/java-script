@@ -1,0 +1,4 @@
+var name=prompt("enter the total number of digits");
+var x=name.slice(0,140);
+var xx=name.length;
+alert("you write total "+ xx +" characters " +" and you left with "+ (140-xx)+" character");
