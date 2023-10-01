@@ -1,0 +1,7 @@
+function whosPaying(names) {
+    var n=names.length;
+    var rp=Math.floor(Math.random()*n);
+    var random=names[rp];
+    return random;
+}
+var names=["ranbir","mansi","ayushi","xxxx"];
