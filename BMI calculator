@@ -1,0 +1,14 @@
+function bmiCalculator(weight,height){
+    var bodyBmi=weight/(height*height);
+    if (bodyBmi<18.5){
+        return "your BMI is"+ bodyBmi+" ,so you are underweight."
+    }
+    if(bodyBmi>18.5 && bodyBmi<=24.9){
+        return  "Your BMI is "+ bodyBmi+", so you have a normal weight.";
+    }
+    if(bodyBmi>24.4){
+        return  "Your BMI is "+ bodyBmi+", so you are overweight."
+    }
+}
+ var change=bmiCalculator(60,1.7);
+console.log(change);
