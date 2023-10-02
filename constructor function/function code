@@ -1,0 +1,6 @@
+function Person(first, last, age, address){
+this.first=first;
+this.last=last;
+this.age=age;
+this.addrerss=address;
+}
