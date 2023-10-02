@@ -1,0 +1,2 @@
+var person1=new Person("ranbir","singh",21,"nagrota");
+//console.log(person1.age);//
