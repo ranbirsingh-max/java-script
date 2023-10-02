@@ -1,0 +1,3 @@
+var objectname={ years:12, week:12, days:365 };
+// take output//
+ // console.log(objectname.years);//
